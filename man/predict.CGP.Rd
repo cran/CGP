@@ -42,15 +42,15 @@ The function returns a list containing the following components:
 \item{Y_up}{If \code{PI=TRUE}, vector of 95\% predictive quantiles at \code{newdata} locations}
 }
 \references{
-Ba, S. and V. Roshan Joseph (2012) ``Composite Gaussian Process Models for Emulating Expensive Functions''. \emph{Annals of Applied Statistics}, to appear.
+Ba, S. and V. Roshan Joseph (2012) ``Composite Gaussian Process Models for Emulating Expensive Functions''. \emph{Annals of Applied Statistics}, 6, 1838-1860.
 }
 \author{
-Shan Ba <sba3@isye.gatech.edu> and V. Roshan Joseph <roshan@isye.gatech.edu>
+Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>
 }
 
 
 \seealso{
-\code{\link{CGP}}, \code{\link{summary.CGP}}
+\code{\link{CGP}}, \code{\link{print.CGP}}, \code{\link{summary.CGP}}
 }
 \examples{
 ### A simulated example from Gramacy and Lee (2012) ``Cases for the nugget 

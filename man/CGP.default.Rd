@@ -28,10 +28,10 @@ This is an intermediate function which calls \code{CGPEst} for parameter estimat
 This function creates an object of class ``\code{CGP}''.
 }
 \references{
-Ba, S. and V. Roshan Joseph (2012) ``Composite Gaussian Process Models for Emulating Expensive Functions''. \emph{Annals of Applied Statistics}, to appear.
+Ba, S. and V. Roshan Joseph (2012) ``Composite Gaussian Process Models for Emulating Expensive Functions''. \emph{Annals of Applied Statistics}, 6, 1838-1860.
 }
 \author{
-Shan Ba <sba3@isye.gatech.edu> and V. Roshan Joseph <roshan@isye.gatech.edu>
+Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>
 }
 
 

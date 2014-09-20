@@ -60,10 +60,10 @@ This function returns a list containing at least the following components:
 \item{temp_matrix}{Matrix of \eqn{(\mathbf{G}+\lambda\mathbf{\Sigma}^{1/2}\mathbf{L}\mathbf{\Sigma}^{1/2})^{-1} (\mathbf{y}- \hat{\mu}\mathbf{1})}}
 }
 \references{
-Ba, S. and V. Roshan Joseph (2012) ``Composite Gaussian Process Models for Emulating Expensive Functions''. \emph{Annals of Applied Statistics}, to appear.
+Ba, S. and V. Roshan Joseph (2012) ``Composite Gaussian Process Models for Emulating Expensive Functions''. \emph{Annals of Applied Statistics}, 6, 1838-1860.
 }
 \author{
-Shan Ba <sba3@isye.gatech.edu> and V. Roshan Joseph <roshan@isye.gatech.edu>
+Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>
 }
 
 
@@ -79,19 +79,19 @@ X<-c(0.775,0.83,0.85,1.05,1.272,1.335,1.365,1.45,1.639,1.675,
 yobs<-sin(10*pi*X)/(2*X)+(X-1)^4
 
 #Fit the CGP model 
-mod<-CGPEst(X,yobs)
+#mod<-CGPEst(X,yobs)
 
-mod$objval
+#mod$objval
 #-40.17315
-mod$lambda
+#mod$lambda
 #0.01877432
-mod$theta
+#mod$theta
 #2.43932
-mod$alpha
+#mod$alpha
 #578.0898
-mod$bandwidth
+#mod$bandwidth
 #1
-mod$rmscv
+#mod$rmscv
 #0.3035192
 
 }

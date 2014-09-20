@@ -1,1 +1,4 @@
-exportPattern("^[[:alpha:]]+")
+export(CGP.default,CGP,plotCGP)
+S3method(print,CGP)
+S3method(summary,CGP)
+S3method(predict,CGP)

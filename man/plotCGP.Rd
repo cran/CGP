@@ -23,10 +23,10 @@ Draw the actual observed values on the y-axis and the jackknife (leave-one-out) 
 This function draws the jackknife (leave-one-out) actual by predicted plot. 
 }
 \references{
-Ba, S. and V. Roshan Joseph (2012) ``Composite Gaussian Process Models for Emulating Expensive Functions''. \emph{Annals of Applied Statistics}, to appear.
+Ba, S. and V. Roshan Joseph (2012) ``Composite Gaussian Process Models for Emulating Expensive Functions''. \emph{Annals of Applied Statistics}, 6, 1838-1860.
 }
 \author{
-Shan Ba <sba3@isye.gatech.edu> and V. Roshan Joseph <roshan@isye.gatech.edu>
+Shan Ba <shanbatr@gmail.com> and V. Roshan Joseph <roshan@isye.gatech.edu>
 }
 
 \seealso{
@@ -41,7 +41,7 @@ X<-cbind(x1,x2)
 yobs<-x1^2+x2^2
 
 #The CGP model
-mod<-CGP(X,yobs,nugget_l=0.001)
-plotCGP(mod)
+#mod<-CGP(X,yobs,nugget_l=0.001)
+#plotCGP(mod)
 
 }
