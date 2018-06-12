@@ -54,9 +54,9 @@ x2<-c(.29,.02,.12,.58,.38,.87,.01,.12,.22,.08,.34,.185,.64,
       .02,.93,.15,.42,.71,1,0,.21,.5,.785,.21)
 X<-cbind(x1,x2)
 yobs<-sin(1/((x1*0.7+0.3)*(x2*0.7+0.3)))
-
+\dontrun{
 #Fit the CGP model
-#mod<-CGP(X,yobs)
-#summary(mod)
-
+mod<-CGP(X,yobs)
+summary(mod)
+}
 }

@@ -1,4 +1,6 @@
-export(CGP.default,CGP,plotCGP)
+importFrom("graphics","plot")
+importFrom("stats","dist","optim")
+export(CGP,plotCGP)
 S3method(print,CGP)
 S3method(summary,CGP)
 S3method(predict,CGP)

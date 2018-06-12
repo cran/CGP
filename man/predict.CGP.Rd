@@ -67,7 +67,7 @@ y_true<-sin(10*pi*UU)/(2*UU)+(UU-1)^4
 
 plot(UU,y_true,type="l",xlab="x",ylab="y")
 points(X,yobs,col="red")
-
+\dontrun{
 #Fit the CGP model 
 mod<-CGP(X,yobs)
 summary(mod)
@@ -92,6 +92,6 @@ modpred<-predict(mod,UU)
 #Red: final predictor; Blue: global trend
 lines(UU,modpred$Yp,col="red",lty=3,lwd=2)
 lines(UU,modpred$gp,col="blue",lty=5,lwd=1.8)
-
+}
 }
 

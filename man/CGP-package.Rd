@@ -11,8 +11,8 @@ Build nonstationary surrogate models for emulating computationally-expensive com
 \tabular{ll}{
 Package: \tab CGP\cr
 Type: \tab Package\cr
-Version: \tab 2.0-2\cr
-Date: \tab 2014-09-20\cr
+Version: \tab 2.1-1\cr
+Date: \tab 2018-06-11\cr
 License: \tab LGPL-2.1\cr
 }
 This package contains functions for fitting the composite Gaussian process (CGP) model, which consists of two Gaussian processes (GPs). The first GP captures the smooth global trend and the second one models local details. The model also incorporates a flexible variance model, which makes it more capable of approximating surfaces with varying volatility. It can be used as an emulator (surrogate model) for approximating computationally expensive functions that are not second-order stationary. When the underlying surface is stationary, the fitted CGP model should degenerate to a standard (stationary) GP model (\eqn{\hat{\lambda}\approx 0}). 

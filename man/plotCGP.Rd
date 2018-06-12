@@ -39,9 +39,9 @@ x2<-c(.29,.02,.12,.58,.38,.87,.01,.12,.22,.08,.34,.185,.64,
 .02,.93,.15,.42,.71,1,0,.21,.5,.785,.21)
 X<-cbind(x1,x2)
 yobs<-x1^2+x2^2
-
+\dontrun{
 #The CGP model
-#mod<-CGP(X,yobs,nugget_l=0.001)
-#plotCGP(mod)
-
+mod<-CGP(X,yobs,nugget_l=0.001)
+plotCGP(mod)
+}
 }
